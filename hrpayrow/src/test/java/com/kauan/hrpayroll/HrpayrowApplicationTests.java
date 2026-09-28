@@ -1,4 +1,4 @@
-package com.kauan.hrpayrow;
+package com.kauan.hrpayroll;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

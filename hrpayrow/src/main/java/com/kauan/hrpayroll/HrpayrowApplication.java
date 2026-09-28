@@ -1,4 +1,4 @@
-package com.kauan.hrpayrow;
+package com.kauan.hrpayroll;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
