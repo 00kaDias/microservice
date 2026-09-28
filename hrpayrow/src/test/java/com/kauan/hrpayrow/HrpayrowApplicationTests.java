@@ -1,10 +1,10 @@
-package com.kauan.hr_worker;
+package com.kauan.hrpayrow;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class HrWorkerApplicationTests {
+class HrpayrowApplicationTests {
 
 	@Test
 	void contextLoads() {
