@@ -23,8 +23,6 @@ public class WorkerResource {
     private Environment env;
 
 
-
-
     @Autowired
     private WorkerRepository repository;
 
@@ -37,6 +35,14 @@ public class WorkerResource {
 
     @GetMapping(value = "/{id}")
     public ResponseEntity<Worker> findById(@PathVariable Long id) {
+        /* try {
+            Thread.sleep(3000L); // Simulando um delay de 3 segundos
+
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+    Simulado um Sleep para test. */
 
         Logger.info("PORT = " + env.getProperty("local.server.port"));
 
